@@ -1,0 +1,46 @@
+/* top, right, bottom, left */
+
+footer {
+  background: #212121;
+  padding: 60px 20px 60px 20px;
+}
+
+/*
+.container-footer {
+  background: #212121;
+  padding: 20px;
+}
+*/
+
+.container-row {
+  color: #ffffff;
+}
+
+.footer-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-copyright {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+}
+
+footer div div ul a {
+  display: block;
+}
+
+@media (min-width: 600px) {
+  .container-footer {
+    max-width: 947px;
+    margin: auto;
+  }
+
+  .container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

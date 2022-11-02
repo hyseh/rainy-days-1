@@ -119,6 +119,7 @@ button:hover {
   background-color: #929292;
 }
 
+a:link,
 a:hover,
 a:visited {
   color: white;
