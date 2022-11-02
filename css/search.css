@@ -1,0 +1,28 @@
+.search-container {
+  height: 100%;
+  width: 100vw;
+  max-width: 360px;
+}
+
+.search-bar {
+  height: 40px;
+  display: flex;
+}
+
+.search-bar-input {
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.search-bar-submit {
+  font-size: 1rem;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border: 0;
+  background: #ffffff;
+  margin-right: 20px;
+}

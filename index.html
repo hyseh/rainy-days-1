@@ -7,6 +7,7 @@
     <title>Rainy Days - Hjem</title>
     <link href="./css/styles.css" rel="stylesheet" />
     <link href="./css/footer.css" rel="stylesheet" />
+    <link href="./css/search.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/732f754b46.js"
       crossorigin="anonymous"
@@ -15,26 +16,41 @@
   <body>
     <header>
       <img src="./images/Rainy Days Logo.png" class="logo" />
-      <div>
-        <input type="checkbox" id="menu-checkbox" />
-        <div class="container-bars">
-          <label for="menu-checkbox" class="bars-icon"
-            ><i class="fa-solid fa-bars"></i
-          ></label>
-        </div>
-        <nav>
-          <ul>
-            <h1>Navigasjon</h1>
-            <input type="checkbox" id="menu-checkbox-close" />
-            <label for="menu-checkbox" class="exit-icon"
-              ><i class="fa-solid fa-xmark"></i
+      <div class="header-bottom">
+        <div>
+          <input type="checkbox" id="menu-checkbox" />
+          <div class="container-bars">
+            <label for="menu-checkbox" class="bars-icon"
+              ><i class="fa-solid fa-bars"></i
             ></label>
-            <a class="active" href="#">Hjem</a>
-            <a href="#">Butikk</a>
-            <a href="#">Om</a>
-            <a href="#">Kontakt</a>
-          </ul>
-        </nav>
+          </div>
+          <nav>
+            <ul>
+              <h1>Navigasjon</h1>
+              <input type="checkbox" id="menu-checkbox-close" />
+              <label for="menu-checkbox" class="exit-icon"
+                ><i class="fa-solid fa-xmark"></i
+              ></label>
+              <a class="active" href="#">Hjem</a>
+              <a href="#">Butikk</a>
+              <a href="#">Om</a>
+              <a href="#">Kontakt</a>
+            </ul>
+          </nav>
+        </div>
+        <div class="search-container">
+          <div class="search-bar">
+            <input
+              type="text"
+              class="search-bar-input"
+              placeholder="Søk"
+              aria-label="Søk"
+            />
+            <button class="search-bar-submit">
+              <i class="fa-solid fa-magnifying-glass" aria-label="Send Søk"></i>
+            </button>
+          </div>
+        </div>
       </div>
     </header>
 
