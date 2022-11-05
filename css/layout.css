@@ -1,3 +1,4 @@
+/*
 header {
   background-color: DarkTurquoise;
 }
@@ -12,7 +13,25 @@ footer {
 
 .grid-container {
   display: grid;
-  background-color: red;
+  background-color: #ffffff;
+}
+*/
+
+header {
+  min-width: 360px;
+}
+
+main {
+  min-width: 360px;
+}
+
+footer {
+  min-width: 360px;
+}
+
+.grid-container {
+  display: grid;
+  background-color: #ffffff;
 }
 
 @media (min-width: 600px) {

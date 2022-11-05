@@ -16,16 +16,21 @@ header {
   /*  position: relative; */
   position: sticky;
   top: 0;
-  /*  background: #212121; */
+  background: #212121;
   height: 145px;
   width: 100vw;
+  min-width: 360px;
+}
+
+.header-container {
+  padding: 20px;
 }
 
 .header-container-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 20px;
+  margin-bottom: 20px;
 }
 
 .header-container-icons {
@@ -40,7 +45,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 20px;
+  margin-top: 20px;
 }
 
 .bars-container {

@@ -3,6 +3,7 @@
 @import url(./search.css);
 @import url(./layout.css);
 @import url(./queries.css);
+@import url(./store.css);
 
 @font-face {
   font-family: "Poppins";
@@ -48,28 +49,6 @@ h3 {
   font-style: bold;
 }
 */
-
-.image-main {
-  width: 277px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
-.image-center {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  max-width: 100vw;
-}
-
-.main-container {
-  background: #e0e0e0;
-  margin: 20px;
-  padding: 20px;
-  max-width: 100%;
-}
 
 main button {
   font-family: "Poppins", sans-serif;
