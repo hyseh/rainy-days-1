@@ -1,6 +1,6 @@
 .search-container {
   height: 100%;
-  width: 100vw;
+  width: 100%;
   max-width: 360px;
 }
 
@@ -24,5 +24,32 @@
   cursor: pointer;
   border: none;
   background: #ffffff;
+}
+
+#nav-search {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-search-container {
+  margin-left: 20px;
   margin-right: 20px;
+}
+
+.nav-search-bar-input {
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  border: none;
+  outline: none;
+  background: #e0e0e0;
+}
+
+.nav-search-bar-submit {
+  font-size: 1rem;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border: none;
+  background: #e0e0e0;
 }

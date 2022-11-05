@@ -1,0 +1,38 @@
+@media (min-width: 600px) {
+  .bars-icon {
+    display: none;
+  }
+
+  .exit-icon {
+    display: none;
+  }
+
+  .logo {
+    position: static;
+    width: 180px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+  }
+
+  #menu-title {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    position: static;
+    background: #212121;
+    height: 0px;
+    width: 100%;
+  }
+
+  nav a {
+    display: inline-block;
+    color: #ffffff;
+    padding: 20px;
+  }
+}
