@@ -4,6 +4,7 @@
 @import url(./layout.css);
 @import url(./queries.css);
 @import url(./store.css);
+@import url(./desktopheader.css);
 
 @font-face {
   font-family: "Poppins";

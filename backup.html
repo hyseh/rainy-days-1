@@ -1,39 +1,61 @@
-<header class="container">
-  <img src="./images/Rainy Days Logo.png" class="logo" />
-  <div class="header-bottom">
-    <div>
-      <input type="checkbox" id="menu-checkbox" />
-      <div class="container-bars">
-        <label for="menu-checkbox" class="bars-icon"
-          ><i class="fa-solid fa-bars"></i
-        ></label>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header Desktop</title>
+    <link href="./test.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/732f754b46.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="desktop-header-container">
+        <div class="logo-container">
+          <div class="logo-container-content">
+            <img src="./images/Rainy Days Logo.png" class="desktop-logo" />
+          </div>
+        </div>
+        <div class="desktop-header-container-main">
+          <div class="desktop-header-nav-container">
+            <nav>
+              <ul>
+                <a class="active" href="#">Hjem</a>
+                <a href="#">Butikk</a>
+                <a href="#">Om</a>
+                <a href="#">Kontakt</a>
+              </ul>
+            </nav>
+          </div>
+          <div class="desktop-header-container-left">
+            <div class="desktop-search-container">
+              <div class="desktop-search-bar">
+                <input
+                  type="text"
+                  class="desktop-search-bar-input"
+                  placeholder="Søk"
+                  aria-label="Søk"
+                />
+                <button class="desktop-search-bar-submit">
+                  <i
+                    class="fa-solid fa-magnifying-glass"
+                    aria-label="Send Søk"
+                  ></i>
+                </button>
+              </div>
+            </div>
+            <div class="desktop-header-container-icons">
+              <i class="fa-regular fa-user"></i>
+              <i class="fa-regular fa-heart"></i>
+              <i class="fa-regular fa-credit-card"></i>
+            </div>
+          </div>
+        </div>
+        <div class="hidden-container"></div>
       </div>
-      <nav>
-        <ul>
-          <h1>Navigasjon</h1>
-          <input type="checkbox" id="menu-checkbox-close" />
-          <label for="menu-checkbox" class="exit-icon"
-            ><i class="fa-solid fa-xmark"></i
-          ></label>
-          <a class="active" href="#">Hjem</a>
-          <a href="#">Butikk</a>
-          <a href="#">Om</a>
-          <a href="#">Kontakt</a>
-        </ul>
-      </nav>
-    </div>
-    <div class="search-container">
-      <div class="search-bar">
-        <input
-          type="text"
-          class="search-bar-input"
-          placeholder="Søk"
-          aria-label="Søk"
-        />
-        <button class="search-bar-submit">
-          <i class="fa-solid fa-magnifying-glass" aria-label="Send Søk"></i>
-        </button>
-      </div>
-    </div>
-  </div>
-</header>
+    </header>
+  </body>
+</html>

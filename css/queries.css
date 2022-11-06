@@ -1,38 +1,40 @@
-@media (min-width: 600px) {
-  .bars-icon {
-    display: none;
-  }
-
-  .exit-icon {
-    display: none;
-  }
-
-  .logo {
-    position: static;
-    width: 180px;
+@media (max-width: 600px) {
+  #mobile-header {
+    display: block;
+    height: 100vh;
+    width: 100vw;
   }
 
   header {
-    display: flex;
-    flex-direction: row;
-    height: 120px;
+    /*  position: relative; */
+    position: sticky;
+    top: 0;
+    background: #212121;
+    height: 145px;
+    width: 100vw;
+    min-width: 360px;
   }
 
-  #menu-title {
+  #desktop-header {
     display: none;
   }
+}
 
-  nav {
+@media (min-width: 600px) {
+  #desktop-header {
     display: block;
-    position: static;
-    background: #212121;
-    height: 0px;
+    height: 100%;
     width: 100%;
   }
 
-  nav a {
-    display: inline-block;
-    color: #ffffff;
-    padding: 20px;
+  header {
+    position: relative;
+    height: 120px;
+    width: 100vw;
+    background-color: #212121;
+  }
+
+  #mobile-header {
+    display: none;
   }
 }

@@ -1,0 +1,131 @@
+.desktop-logo {
+  width: 180px;
+  background-size: contain;
+}
+
+.desktop-header-container-icons {
+  display: flex;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 88px;
+  justify-content: space-between;
+}
+
+.logo-container {
+  width: 303px;
+}
+
+.logo-container-content {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.desktop-header-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+}
+
+.desktop-header-container-main {
+  /*  border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  min-height: 40px;
+  min-width: 200px;
+  height: 100%;
+  width: 1274px;
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.desktop-header-nav-container {
+  /*  border: 2px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  min-width: 200px;
+  width: 234px;
+  margin-top: auto;
+}
+
+header nav {
+  height: 100%;
+  width: 100%;
+}
+
+.desktop-header-nav-main ul {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.desktop-header-container-left {
+  /*  border: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin-top: auto;
+  min-height: 29px;
+}
+
+.hidden-container {
+  width: 303px;
+}
+
+/* desktop search button */
+.desktop-search-container {
+  height: 100%;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-right: 20px;
+}
+
+.desktop-search-bar {
+  height: 40px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.desktop-search-bar-input {
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.desktop-search-bar-submit {
+  font-size: 1rem;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+}
+/* desktop search button */
+
+@media (max-width: 950px) {
+  .desktop-search-container {
+    display: none;
+  }
+
+  .hidden-container {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hidden-container {
+    display: none;
+  }
+}

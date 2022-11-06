@@ -1,3 +1,4 @@
+/* main search button */
 .search-container {
   height: 100%;
   width: 100%;
@@ -26,6 +27,7 @@
   background: #ffffff;
 }
 
+/* inside nav search button */
 #nav-search {
   height: 100%;
   width: 100%;

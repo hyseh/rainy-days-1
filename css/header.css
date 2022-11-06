@@ -12,28 +12,18 @@ nav,
   display: block;
 }
 
-header {
-  /*  position: relative; */
-  position: sticky;
-  top: 0;
-  background: #212121;
-  height: 145px;
-  width: 100vw;
-  min-width: 360px;
-}
-
-.header-container {
+.mobile-header-container {
   padding: 20px;
 }
 
-.header-container-top {
+.mobile-header-container-top {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.header-container-icons {
+.mobile-header-container-icons {
   display: flex;
   align-items: flex-end;
   color: #ffffff;
@@ -41,7 +31,7 @@ header {
   justify-content: space-between;
 }
 
-.header-container-bottom {
+.mobile-header-container-bottom {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

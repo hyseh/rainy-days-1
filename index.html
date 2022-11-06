@@ -14,83 +14,130 @@
   <body>
     <div class="grid-container">
       <header>
-        <div class="header-container">
-          <div class="header-container-top">
-            <img src="./images/Rainy Days Logo.png" class="logo" />
-            <div class="header-container-icons">
-              <i class="fa-regular fa-user"></i>
-              <i class="fa-regular fa-heart"></i>
-              <i class="fa-regular fa-credit-card"></i>
+        <section id="mobile-header">
+          <div class="mobile-header-container">
+            <div class="mobile-header-container-top">
+              <img src="./images/Rainy Days Logo.png" class="logo" />
+              <div class="mobile-header-container-icons">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-credit-card"></i>
+              </div>
             </div>
-          </div>
-          <div class="header-container-bottom">
-            <input type="checkbox" id="menu-checkbox" />
-            <div class="bars-container">
-              <label for="menu-checkbox" class="bars-icon"
-                ><i class="fa-solid fa-bars"></i
-              ></label>
-            </div>
-            <nav>
-              <ul>
-                <div class="nav-container">
-                  <div class="nav-container-main">
-                    <p id="menu-title">Navigasjon</p>
-                    <input type="checkbox" id="menu-checkbox-close" />
-                    <div class="exit-container">
-                      <label for="menu-checkbox" class="exit-icon"
-                        ><i class="fa-solid fa-xmark"></i
-                      ></label>
+            <div class="mobile-header-container-bottom">
+              <input type="checkbox" id="menu-checkbox" />
+              <div class="bars-container">
+                <label for="menu-checkbox" class="bars-icon"
+                  ><i class="fa-solid fa-bars"></i
+                ></label>
+              </div>
+              <nav>
+                <ul>
+                  <div class="nav-container">
+                    <div class="nav-container-main">
+                      <p id="menu-title">Navigasjon</p>
+                      <input type="checkbox" id="menu-checkbox-close" />
+                      <div class="exit-container">
+                        <label for="menu-checkbox" class="exit-icon"
+                          ><i class="fa-solid fa-xmark"></i
+                        ></label>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div id="nav-search">
-                  <div class="nav-search-container">
-                    <div class="search-bar">
-                      <input
-                        type="text"
-                        class="nav-search-bar-input"
-                        placeholder="Søk"
-                        aria-label="Søk"
-                      />
-                      <button class="nav-search-bar-submit">
-                        <i
-                          class="fa-solid fa-magnifying-glass"
-                          aria-label="Send Søk"
-                        ></i>
-                      </button>
+                  <div id="nav-search">
+                    <div class="nav-search-container">
+                      <div class="search-bar">
+                        <input
+                          type="text"
+                          class="nav-search-bar-input"
+                          placeholder="Søk"
+                          aria-label="Søk"
+                        />
+                        <button class="nav-search-bar-submit">
+                          <i
+                            class="fa-solid fa-magnifying-glass"
+                            aria-label="Send Søk"
+                          ></i>
+                        </button>
+                      </div>
                     </div>
                   </div>
+                  <a class="active" href="#">Hjem</a>
+                  <a href="#">Butikk</a>
+                  <a href="#">Om</a>
+                  <a href="#">Kontakt</a>
+                  <hr />
+                  <div class="nav-others">
+                    <a href="#">Min konto</a>
+                    <a href="#">Mine favoritter</a>
+                    <a href="#">Trenger du hjelp?</a>
+                  </div>
+                </ul>
+              </nav>
+              <div class="search-container">
+                <div class="search-bar">
+                  <input
+                    type="text"
+                    class="search-bar-input"
+                    placeholder="Søk"
+                    aria-label="Søk"
+                  />
+                  <button class="search-bar-submit">
+                    <i
+                      class="fa-solid fa-magnifying-glass"
+                      aria-label="Send Søk"
+                    ></i>
+                  </button>
                 </div>
-                <a class="active" href="#">Hjem</a>
-                <a href="#">Butikk</a>
-                <a href="#">Om</a>
-                <a href="#">Kontakt</a>
-                <hr />
-                <div class="nav-others">
-                  <a href="#">Min konto</a>
-                  <a href="#">Mine favoritter</a>
-                  <a href="#">Trenger du hjelp?</a>
-                </div>
-              </ul>
-            </nav>
-            <div class="search-container">
-              <div class="search-bar">
-                <input
-                  type="text"
-                  class="search-bar-input"
-                  placeholder="Søk"
-                  aria-label="Søk"
-                />
-                <button class="search-bar-submit">
-                  <i
-                    class="fa-solid fa-magnifying-glass"
-                    aria-label="Send Søk"
-                  ></i>
-                </button>
               </div>
             </div>
           </div>
-        </div>
+        </section>
+        <section id="desktop-header">
+          <div class="desktop-header-container">
+            <div class="logo-container">
+              <div class="logo-container-content">
+                <img src="./images/Rainy Days Logo.png" class="desktop-logo" />
+              </div>
+            </div>
+            <div class="desktop-header-container-main">
+              <div class="desktop-header-nav-container">
+                <nav>
+                  <ul>
+                    <a class="active" href="#">Hjem</a>
+                    <a href="#">Butikk</a>
+                    <a href="#">Om</a>
+                    <a href="#">Kontakt</a>
+                  </ul>
+                </nav>
+              </div>
+              <div class="desktop-header-container-left">
+                <div class="desktop-search-container">
+                  <div class="desktop-search-bar">
+                    <input
+                      type="text"
+                      class="desktop-search-bar-input"
+                      placeholder="Søk"
+                      aria-label="Søk"
+                    />
+                    <button class="desktop-search-bar-submit">
+                      <i
+                        class="fa-solid fa-magnifying-glass"
+                        aria-label="Send Søk"
+                      ></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="desktop-header-container-icons">
+                  <i class="fa-regular fa-user"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-credit-card"></i>
+                </div>
+              </div>
+            </div>
+            <div class="hidden-container"></div>
+          </div>
+        </section>
       </header>
 
       <main>
