@@ -1,8 +1,6 @@
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   #mobile-header {
     display: block;
-    height: 100vh;
-    width: 100vw;
   }
 
   header {
@@ -11,7 +9,6 @@
     top: 0;
     background: #212121;
     height: 145px;
-    width: 100vw;
     min-width: 360px;
   }
 
@@ -20,7 +17,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   #desktop-header {
     display: block;
     height: 100%;
@@ -30,7 +27,6 @@
   header {
     position: relative;
     height: 120px;
-    width: 100vw;
     background-color: #212121;
   }
 

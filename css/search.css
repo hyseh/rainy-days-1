@@ -2,7 +2,7 @@
 .search-container {
   height: 100%;
   width: 100%;
-  max-width: 360px;
+  /* max-width: 360px; */
 }
 
 .search-bar {
@@ -28,11 +28,6 @@
 }
 
 /* inside nav search button */
-#nav-search {
-  height: 100%;
-  width: 100%;
-}
-
 .nav-search-container {
   margin-left: 20px;
   margin-right: 20px;
