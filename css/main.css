@@ -10,6 +10,7 @@
   src: url("../fonts/poppins/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -17,6 +18,7 @@
   src: url("../fonts/poppins/Poppins-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: bold;
+  font-display: swap;
 }
 
 * {
@@ -74,3 +76,34 @@ a:visited {
   color: white;
   text-decoration: none;
 }
+
+.image-main {
+  width: 277px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.image-center {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.main-container {
+  /* background: red; */
+  margin: 20px;
+}
+
+.main-container-content {
+  background: #e0e0e0;
+  padding: 20px;
+  /* max-width: 100%; */
+  max-width: 1274px;
+  margin: auto;
+}
+
+/*
+.main-container-row {
+  max-width: 947px;
+}
+*/
