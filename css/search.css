@@ -1,4 +1,4 @@
-/* main search button */
+/* main search button start */
 .search-container {
   height: 100%;
   width: 100%;
@@ -26,8 +26,9 @@
   border: none;
   background: #ffffff;
 }
+/* main search button end */
 
-/* inside nav search button */
+/* nav search button start */
 .nav-search-container {
   margin-left: 20px;
   margin-right: 20px;
@@ -50,3 +51,40 @@
   border: none;
   background: #e0e0e0;
 }
+/* nav search button end */
+
+/* desktop search button start */
+.desktop-search-container {
+  height: 100%;
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.desktop-search-bar {
+  height: 40px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.desktop-search-bar-input {
+  flex-grow: 1;
+  font-size: 1rem;
+  padding: 0 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.desktop-search-bar-submit {
+  font-size: 1rem;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  border: none;
+  background: #ffffff;
+}
+/* desktop search button end */
