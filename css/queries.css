@@ -40,3 +40,13 @@
     display: none;
   }
 }
+
+@media (min-width: 1500px) {
+  .desktop-header-nav-container {
+    margin-left: 0px;
+  }
+
+  .desktop-header-container-icons {
+    margin-right: 0px;
+  }
+}
