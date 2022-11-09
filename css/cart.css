@@ -1,0 +1,26 @@
+.cart-container {
+  background: red;
+  margin: 20px;
+}
+
+.cart-container-content {
+  background: blue;
+  /* max-width: 100%; */
+  max-width: 1274px;
+  margin: auto;
+}
+
+.cart-image-container {
+  /* background: blue; */
+  background: #e0e0e0;
+  /* height: 686px; */
+  max-width: 144px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* margin-bottom: 20px; */
+}
+
+.cart-image-main {
+  height: auto;
+  width: 100%;
+}
