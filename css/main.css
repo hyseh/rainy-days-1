@@ -1,6 +1,7 @@
 @import url(./footer.css);
 @import url(./header.css);
 @import url(./layout.css);
+@import url(./product.css);
 @import url(./queries.css);
 @import url(./search.css);
 @import url(./store.css);
@@ -107,3 +108,8 @@ a:visited {
   max-width: 947px;
 }
 */
+
+.bold {
+  font-weight: 700;
+  font-style: bold;
+}
