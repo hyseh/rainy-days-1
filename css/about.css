@@ -1,0 +1,47 @@
+.about-container {
+  /* background: red; */
+  margin: 20px;
+}
+
+.about-container-content {
+  /* background: blue; */
+  /* max-width: 100%; */
+  max-width: 1274px;
+  margin: auto;
+}
+
+.about-container-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-container-main-content {
+  max-width: 1000px;
+}
+
+.about-image-container {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.about-image-main {
+  height: auto;
+  width: 100%;
+}
+
+.about-info-container {
+  max-width: 800px;
+}
+
+.about-info-container .title {
+  font-size: 2rem;
+}
+
+.about-info-container p {
+  margin-bottom: 20px;
+}
+
+#about-quote {
+  margin-bottom: 0px;
+}
