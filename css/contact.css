@@ -1,0 +1,156 @@
+.contact-container {
+  /* background: red; */
+  margin: 20px;
+}
+
+.contact-container-content {
+  /* background: blue; */
+  /* max-width: 100%; */
+  max-width: 1274px;
+  margin: auto;
+}
+
+.qna-container {
+  /* background: purple; */
+  max-width: 626px;
+}
+
+.qna-container .title {
+  margin-bottom: 20px;
+}
+
+.qna-container hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.answer-preview {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#qna-hr-top {
+  margin-top: 0px;
+}
+
+#qna-hr-bottom {
+  margin-bottom: 0px;
+}
+
+.form-container {
+  /* background: green; */
+  width: 100%;
+  max-width: 490px;
+}
+
+.form-container .title {
+  margin-bottom: 20px;
+}
+
+.form-container div {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  height: 100%;
+  width: 100%;
+  /* max-width: 360px; */
+}
+
+.input-container-content {
+  height: 40px;
+  display: flex;
+}
+
+.input-container-content-main {
+  flex-grow: 1;
+  font-size: 1rem;
+  background: #e0e0e0;
+  padding: 0 0.5rem;
+  border: none;
+  outline: none;
+}
+
+.select-container {
+  max-width: 490px;
+}
+
+.select-container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e0e0e0;
+  height: 40px;
+  padding: 0 0.5rem;
+}
+
+.textarea-container {
+  height: 100%;
+  width: 100%;
+  /* max-width: 360px; */
+}
+
+.textarea-container-content {
+  display: flex;
+  font-size: 1rem;
+  height: 120px;
+}
+
+.textarea-container-content-main {
+  flex-grow: 1;
+  font-size: 1rem;
+  background: #e0e0e0;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  outline: none;
+  /* font-family: "Poppins"; */
+  /* line-height: 1.2; */
+}
+
+.textarea-container-content textarea {
+  resize: none;
+}
+
+.file-container {
+  max-width: 490px;
+}
+
+.file-container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e0e0e0;
+  height: 40px;
+  padding: 0 0.5rem;
+}
+
+.contact-container input[type="submit"] {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1rem;
+  border: none;
+  background-color: #000000;
+  color: white;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+.contact-container input:hover[type="submit"] {
+  background-color: #929292;
+}
+
+@media (min-width: 690px) {
+  .qna-container {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 1145px) {
+  .qna-container {
+    margin-bottom: 20px;
+  }
+}
