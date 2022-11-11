@@ -14,7 +14,144 @@
   </head>
   <body>
     <div class="grid-container">
-      <header></header>
+      <header>
+        <section id="mobile-header">
+          <div class="mobile-header-container">
+            <div class="mobile-header-container-top">
+              <img
+                src="./images/Rainy Days Logo.webp"
+                id="mobile-logo"
+                alt="Rainy Days Logo"
+              />
+              <div class="mobile-header-container-icons">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-credit-card"></i>
+              </div>
+            </div>
+            <div class="mobile-header-container-bottom">
+              <input type="checkbox" id="menu-checkbox" />
+              <div class="bars-container">
+                <label for="menu-checkbox" class="bars-icon"
+                  ><i class="fa-solid fa-bars"></i
+                ></label>
+              </div>
+              <nav id="mobile-header-nav">
+                <ul>
+                  <div class="nav-container">
+                    <div class="nav-container-main">
+                      <p id="menu-title">Navigasjon</p>
+                      <input type="checkbox" id="menu-checkbox-close" />
+                      <div class="exit-container">
+                        <label for="menu-checkbox" class="exit-icon"
+                          ><i class="fa-solid fa-xmark"></i
+                        ></label>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="nav-search">
+                    <div class="nav-search-container">
+                      <div class="search-bar">
+                        <input
+                          type="text"
+                          class="nav-search-bar-input"
+                          placeholder="Søk"
+                          aria-label="Søk"
+                        />
+                        <button class="nav-search-bar-submit">
+                          <i
+                            class="fa-solid fa-magnifying-glass"
+                            aria-label="Send Søk"
+                          ></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <li><a href="./index.html">Hjem</a></li>
+                  <li><a href="./store.html">Butikk</a></li>
+                  <li><a href="./about.html">Om</a></li>
+                  <li><a href="./contact.html">Kontakt</a></li>
+                  <hr />
+                  <div class="nav-others">
+                    <li><a href="#" onclick="return false;">Min konto</a></li>
+                    <li>
+                      <a href="#" onclick="return false;">Mine favoritter</a>
+                    </li>
+                    <li>
+                      <a href="#" onclick="return false;">Trenger du hjelp?</a>
+                    </li>
+                  </div>
+                </ul>
+              </nav>
+              <div class="search-container">
+                <div class="search-bar">
+                  <input
+                    type="text"
+                    class="search-bar-input"
+                    placeholder="Søk"
+                    aria-label="Søk"
+                  />
+                  <button class="search-bar-submit">
+                    <i
+                      class="fa-solid fa-magnifying-glass"
+                      aria-label="Send Søk"
+                    ></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="desktop-header">
+          <div class="desktop-header-container">
+            <div class="logo-container">
+              <div class="logo-container-content">
+                <img
+                  src="./images/Rainy Days Logo.webp"
+                  class="desktop-logo"
+                  alt="Rainy Days Logo"
+                />
+              </div>
+            </div>
+            <div class="desktop-header-container-main">
+              <div class="desktop-header-nav-container">
+                <nav id="desktop-header-nav">
+                  <ul>
+                    <li><a href="./index.html">Hjem</a></li>
+                    <li><a href="./store.html">Butikk</a></li>
+                    <li><a href="./about.html">Om</a></li>
+                    <li><a href="./contact.html">Kontakt</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="desktop-header-container-left">
+                <div class="desktop-search-container">
+                  <div class="desktop-search-bar">
+                    <input
+                      type="text"
+                      class="desktop-search-bar-input"
+                      placeholder="Søk"
+                      aria-label="Søk"
+                    />
+                    <button class="desktop-search-bar-submit">
+                      <i
+                        class="fa-solid fa-magnifying-glass"
+                        aria-label="Send Søk"
+                      ></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="desktop-header-container-icons">
+                  <i class="fa-regular fa-user"></i>
+                  <i class="fa-regular fa-heart"></i>
+                  <i class="fa-regular fa-credit-card"></i>
+                </div>
+              </div>
+            </div>
+            <div class="desktop-hidden-container"></div>
+          </div>
+        </section>
+      </header>
 
       <main>
         <section>
@@ -153,6 +290,48 @@
           </div>
         </section>
       </main>
+
+      <footer>
+        <div class="container-footer">
+          <div class="container-row">
+            <div>
+              <h3>Kundeservice</h3>
+              <ul class="footer-content">
+                <li><a href="./contact.html">Kontakt oss</a></li>
+                <li>
+                  <a href="./contact.html">Spørsmål og svar</a>
+                </li>
+                <li>
+                  <a href="#" onclick="return false;">Frakt og levering</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3>Om Rainy Days</h3>
+              <ul class="footer-content">
+                <li><a href="./about.html">Om oss</a></li>
+                <li><a href="#" onclick="return false;">Butikker</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Vilkår og betingelser</h3>
+              <ul class="footer-content">
+                <li><a href="#" onclick="return false;">Kjøpsvilkår</a></li>
+                <li><a href="#" onclick="return false;">Brukervilkår</a></li>
+                <li>
+                  <a href="#" onclick="return false;">Personvernerklæring</a>
+                </li>
+                <li>
+                  <a href="#" onclick="return false;">Informasjonskapsler</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <p>Rainy Days &copy; All righs reserved</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
