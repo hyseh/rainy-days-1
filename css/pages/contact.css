@@ -1,17 +1,13 @@
 .contact-container {
-  /* background: red; */
   margin: 20px;
 }
 
 .contact-container-content {
-  /* background: blue; */
-  /* max-width: 100%; */
   max-width: 1274px;
   margin: auto;
 }
 
 .qna-container {
-  /* background: purple; */
   max-width: 626px;
 }
 
@@ -40,7 +36,6 @@
 }
 
 .form-container {
-  /* background: green; */
   width: 100%;
   max-width: 490px;
 }
@@ -56,7 +51,6 @@
 .input-container {
   height: 100%;
   width: 100%;
-  /* max-width: 360px; */
 }
 
 .input-container-content {
@@ -90,7 +84,6 @@
 .textarea-container {
   height: 100%;
   width: 100%;
-  /* max-width: 360px; */
 }
 
 .textarea-container-content {
@@ -106,8 +99,6 @@
   padding: 0.5rem 0.5rem;
   border: none;
   outline: none;
-  /* font-family: "Poppins"; */
-  /* line-height: 1.2; */
 }
 
 .textarea-container-content textarea {

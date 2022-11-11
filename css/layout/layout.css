@@ -1,22 +1,3 @@
-/*
-header {
-  background-color: DarkTurquoise;
-}
-
-main {
-  background-color: LightGreen;
-}
-
-footer {
-  background-color: HotPink;
-}
-
-.grid-container {
-  display: grid;
-  background-color: #ffffff;
-}
-*/
-
 header {
   min-width: 360px;
 }

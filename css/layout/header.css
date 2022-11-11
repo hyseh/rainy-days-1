@@ -123,7 +123,6 @@
   }
 
   header {
-    /*  position: relative; */
     position: sticky;
     top: 0;
     background: #212121;
@@ -165,20 +164,16 @@
 }
 
 .desktop-header-container-main {
-  /*  border: 2px solid red; */
   display: flex;
   flex-direction: row;
   min-height: 40px;
   height: 100%;
   width: 1274px;
   margin: auto;
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
   padding-bottom: 10px;
 }
 
 .desktop-header-nav-container {
-  /*  border: 2px solid blue; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -204,7 +199,6 @@
 }
 
 .desktop-header-container-left {
-  /*  border: 2px solid green; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

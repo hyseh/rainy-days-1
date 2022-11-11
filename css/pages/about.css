@@ -1,11 +1,8 @@
 .about-container {
-  /* background: red; */
   margin: 20px;
 }
 
 .about-container-content {
-  /* background: blue; */
-  /* max-width: 100%; */
   max-width: 1274px;
   margin: auto;
 }

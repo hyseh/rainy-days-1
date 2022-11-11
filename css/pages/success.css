@@ -1,12 +1,8 @@
 .success-container {
-  /* background: red; */
-  /* margin: 20px; */
   height: 100vh;
 }
 
 .success-container-content {
-  /* background: blue; */
-  /* max-width: 100%; */
   height: 100%;
   width: 100%;
   max-width: 1274px;

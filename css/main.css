@@ -1,16 +1,3 @@
-/*
-@import url(./about.css);
-@import url(./cart.css);
-@import url(./contact.css);
-@import url(./footer.css);
-@import url(./header.css);
-@import url(./layout.css);
-@import url(./product.css);
-@import url(./search);
-@import url(./store.css);
-@import url(./success.css);
-*/
-
 @import url(./layout/layout.css);
 @import url(./layout/header.css);
 @import url(./layout/footer.css);
@@ -38,7 +25,6 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
 }
 
 body {
@@ -129,14 +115,12 @@ a:visited {
 }
 
 .main-container {
-  /* background: red; */
   margin: 20px;
 }
 
 .main-container-content {
   background: #e0e0e0;
   padding: 20px;
-  /* max-width: 100%; */
   max-width: 1274px;
   margin: auto;
 }
