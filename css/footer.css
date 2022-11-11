@@ -22,6 +22,10 @@ footer {
   padding-bottom: 20px;
 }
 
+.footer-content li {
+  width: fit-content;
+}
+
 .footer-copyright {
   color: #ffffff;
   text-align: center;
