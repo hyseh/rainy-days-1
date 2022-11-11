@@ -78,6 +78,12 @@
   /* margin-top: 20px; */
 }
 
+.cart-prize-container button p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .cart-container-content .title {
   margin-bottom: 20px;
 }
