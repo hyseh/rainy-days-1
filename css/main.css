@@ -1,14 +1,20 @@
+/*
+@import url(./about.css);
+@import url(./cart.css);
+@import url(./contact.css);
 @import url(./footer.css);
 @import url(./header.css);
 @import url(./layout.css);
 @import url(./product.css);
-@import url(./queries.css);
-@import url(./search.css);
+@import url(./search);
 @import url(./store.css);
-@import url(./cart.css);
 @import url(./success.css);
-@import url(./about.css);
-@import url(./contact.css);
+*/
+
+@import url(./layout/layout.css);
+@import url(./layout/header.css);
+@import url(./layout/footer.css);
+@import url(./others/search.css);
 
 @font-face {
   font-family: "Poppins";
@@ -40,6 +46,46 @@ body {
   font-size: 1rem;
 }
 
+.title {
+  font-size: 1.75rem;
+}
+
+.undertitle {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: 700;
+  font-style: bold;
+}
+
+.product-brand {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.product-name {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.product-prize {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-style: bold;
+  color: #000000;
+}
+
+.flex-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 textarea::placeholder {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -51,20 +97,6 @@ input::placeholder {
   font-size: 1rem;
   color: #000000;
 }
-
-/*
-h2 {
-  font-weight: 400;
-  font-style: normal;
-}
-*/
-
-/*
-h3 {
-  font-weight: 700;
-  font-style: bold;
-}
-*/
 
 main button {
   font-family: "Poppins", sans-serif;
@@ -90,12 +122,6 @@ a:visited {
   text-decoration: none;
 }
 
-.image-main {
-  width: 277px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-}
-
 .image-center {
   height: 100%;
   display: grid;
@@ -115,13 +141,8 @@ a:visited {
   margin: auto;
 }
 
-/*
-.main-container-row {
-  max-width: 947px;
-}
-*/
-
-.bold {
-  font-weight: 700;
-  font-style: bold;
+.image-main {
+  width: 277px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }

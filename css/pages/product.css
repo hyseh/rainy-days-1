@@ -9,12 +9,6 @@
   margin: auto;
 }
 
-.flex-wrapper {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .image-container {
   /* background: blue; */
   background: #e0e0e0;
