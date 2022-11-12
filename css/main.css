@@ -111,6 +111,11 @@ a:visited {
   text-decoration: none;
 }
 
+#desktop-header a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .image-center {
   height: 100%;
   display: grid;
