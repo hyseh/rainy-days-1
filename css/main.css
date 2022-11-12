@@ -95,10 +95,13 @@ main button {
   width: 100%;
   height: 40px;
   text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
 main button:hover {
   background-color: #929292;
+  transition: 0.3s;
 }
 
 a:link,
