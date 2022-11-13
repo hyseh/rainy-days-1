@@ -37,6 +37,20 @@
   width: 100%;
 }
 
+.select-container {
+  max-width: 490px;
+  margin-bottom: 10px;
+}
+
+.select-container-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 40px;
+  padding: 0 0.5rem;
+}
+
 .product-info {
   margin-bottom: 60px;
 }
