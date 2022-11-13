@@ -181,7 +181,7 @@
   width: 234px;
   margin-top: auto;
   margin-left: 20px;
-  transform: translateY(6px); /* lines up text with serch and icons */
+  transform: translateY(2px); /* lines up text with icons */
 }
 
 #desktop-header-nav {
