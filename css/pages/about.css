@@ -14,12 +14,14 @@
 }
 
 .about-container-main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   max-width: 1000px;
 }
 
 .about-image-container {
   max-width: 100%;
-  margin-bottom: 60px;
 }
 
 .about-image-main {
@@ -28,17 +30,12 @@
 }
 
 .about-info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   max-width: 800px;
 }
 
 .about-info-container .title {
   font-size: 2rem;
-}
-
-.about-info-container p {
-  margin-bottom: 20px;
-}
-
-#about-quote {
-  margin-bottom: 0px;
 }

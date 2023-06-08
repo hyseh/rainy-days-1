@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rainy Days - Handlekurv</title>
+    <title>Rainy Days - Betaling</title>
     <meta
       name="description"
       content="Rainy Days - Kjøp de beste jakkene på vår nettbutikk! Gratis frakt og retur*"
     />
     <link href="./css/main.css" rel="stylesheet" />
-    <link href="./css/pages/cart.css" rel="stylesheet" />
+    <link href="./css/pages/payment.css" rel="stylesheet" />
     <script src="./js/nav.js" defer></script>
     <script
       src="https://kit.fontawesome.com/732f754b46.js"
@@ -107,12 +107,83 @@
 
     <main>
       <section>
-        <div class="cart-container">
-          <div class="cart-container-content">
+        <div class="payment-container">
+          <div class="payment-container-content">
             <div class="flex-wrapper">
+              <div class="order-info-container">
+                <p class="title">Fullfør betaling</p>
+                <div class="user-info-container">
+                  <p class="bold">Dine opplysninger</p>
+                  <div class="email-address">
+                    <p>E-postadresse*</p>
+                    <input type="email" title="E-postadresse" />
+                  </div>
+                  <div class="user-info__names">
+                    <div class="name__first">
+                      <p>Fornavn*</p>
+                      <input type="text" title="Fornavn" />
+                    </div>
+                    <div class="name__last">
+                      <p>Etternavn*</p>
+                      <input type="text" title="Etternavn" />
+                    </div>
+                  </div>
+                  <div class="address">
+                    <p>Adresse*</p>
+                    <input type="text" title="Adresse" />
+                  </div>
+                  <div class="address-place">
+                    <p>By eller sted*</p>
+                    <input type="text" title="By eller sted" />
+                  </div>
+                  <div class="phone-number">
+                    <p>Mobiltelefonnummer*</p>
+                    <input type="text" title="Mobiltelefonnummer" />
+                  </div>
+                </div>
+                <div class="credit-card-container">
+                  <p class="bold">Betaling</p>
+                  <div class="credit-card__number">
+                    <input
+                      type="text"
+                      placeholder="Kortnummer"
+                      title="Kortnummer"
+                      aria-label="Kortnummer"
+                    />
+                  </div>
+                  <div class="credit-card__others">
+                    <div class="credit-card__expired">
+                      <input
+                        type="text"
+                        placeholder="MM/ÅÅ"
+                        title="MM/ÅÅ"
+                        aria-label="MM/ÅÅ"
+                      />
+                    </div>
+                    <div class="credit-card__verify">
+                      <input
+                        type="text"
+                        placeholder="CVC"
+                        title="CVC"
+                        aria-label="CVC"
+                      />
+                    </div>
+                  </div>
+                  <div class="order-price">
+                    <p class="bold">Ordrebeløp (inkl.mva.)</p>
+                    <p>1999.00 kr</p>
+                  </div>
+                  <div class="confirm-order-container">
+                    <a href="./success.html">
+                      <button>
+                        <p>Betal orderen</p>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
               <div class="cart-container-main">
                 <div class="cart-container-main-content">
-                  <p class="title">Handlekurven</p>
                   <div class="cart-container-wrapper">
                     <div class="cart-image-container">
                       <img
@@ -130,8 +201,7 @@
                           <p>Farge: Svart</p>
                           <p>Størrelse: Medium</p>
                         </div>
-                        <p class="bold">999,99kr</p>
-                        <p>Fjern</p>
+                        <p class="bold">999,99 kr</p>
                       </div>
                     </div>
                   </div>
@@ -152,34 +222,31 @@
                           <p>Farge: Grå</p>
                           <p>Størrelse: Medium</p>
                         </div>
-                        <p class="bold">999,99kr</p>
-                        <p>Fjern</p>
+                        <p class="bold">999,99 kr</p>
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
-              <div class="cart-price-container">
-                <p class="title">Total sum</p>
-                <div class="cart-price-info">
-                  <div class="cart-price__upper">
-                    <p>Subtotal <span>1999,00 kr</span></p>
-                    <p>Frakt <span>0,00 kr</span></p>
-                  </div>
-                  <hr />
-                  <div class="cart-price__bottom">
-                    <div class="cart-price-container-bottom">
-                      <p class="bold">
-                        <span id="cart-price-total"
-                          >Total sum (inkl. mva.) </span
-                        ><span>1999,00</span>
-                      </p>
+                  <div class="cart-price-container">
+                    <p class="title">Total sum</p>
+                    <div class="cart-price-info">
+                      <div class="cart-price__upper">
+                        <div class="cart-price__one">
+                          <p>Subtotal</p>
+                          <p>1999,00 kr</p>
+                        </div>
+                        <div class="cart-price__two">
+                          <p>Frakt</p>
+                          <p>0,00 kr</p>
+                        </div>
+                      </div>
+                      <hr />
+                      <div class="cart-price__bottom">
+                        <div class="cart-price__total">
+                          <p class="bold">Total sum (inkl. mva.)</p>
+                          <p class="bold">1999,00 kr</p>
+                        </div>
+                      </div>
                     </div>
-                    <a href="./payment.html"
-                      ><button type="button">
-                        <p>Til kassen</p>
-                      </button></a
-                    >
                   </div>
                 </div>
               </div>
@@ -188,55 +255,5 @@
         </div>
       </section>
     </main>
-
-    <footer>
-      <div class="footer-container__main">
-        <div class="footer-content__1">
-          <h3>Kundeservice</h3>
-          <ul class="footer-content">
-            <li title="Kontakt oss">
-              <a href="./contact.html">Kontakt oss</a>
-            </li>
-            <li title="Spørsmål og svar">
-              <a href="./contact.html">Spørsmål og svar</a>
-            </li>
-            <li title="Frakt og levering">
-              <a href="#" onclick="return false;">Frakt og levering</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-content__2">
-          <h3>Om Rainy Days</h3>
-          <ul class="footer-content">
-            <li title="Om oss">
-              <a href="./about.html">Om oss</a>
-            </li>
-            <li title="Butikker">
-              <a href="#" onclick="return false;">Butikker</a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-content__3">
-          <h3>Vilkår og betingelser</h3>
-          <ul class="footer-content">
-            <li title="Kjøpsvilkår">
-              <a href="#" onclick="return false;">Kjøpsvilkår</a>
-            </li>
-            <li title="Brukervilkår">
-              <a href="#" onclick="return false;">Brukervilkår</a>
-            </li>
-            <li title="Personvernerklæring">
-              <a href="#" onclick="return false;">Personvernerklæring</a>
-            </li>
-            <li title="Informasjonskapsler">
-              <a href="#" onclick="return false;">Informasjonskapsler</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-container__copyright">
-        <p>Rainy Days &copy; All righs reserved</p>
-      </div>
-    </footer>
   </body>
 </html>

@@ -10,6 +10,8 @@
 .flex-wrapper {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .cart-container-main {
@@ -19,18 +21,15 @@
 }
 
 .cart-container-main-content {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .cart-container-wrapper {
   display: flex;
   flex-direction: row;
-}
-
-.cart-container-wrapper-two {
-  display: flex;
-  flex-direction: row;
-  margin-top: 20px;
+  gap: 20px;
 }
 
 .cart-image-container {
@@ -39,7 +38,6 @@
   width: 144px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-right: 20px;
 }
 
 .cart-image-main {
@@ -52,61 +50,43 @@
 }
 
 .info-cart-container-content {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
-.cart-prize-container {
+.cart-price-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   width: 100%;
   max-width: 360px;
 }
 
-.cart-prize-container button p {
+.cart-price-container button p {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.cart-container-content .title {
-  margin-bottom: 20px;
-}
-
-.cart-prize-container p {
+.cart-price-container p {
   width: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.cart-prize-container span {
+.cart-price-container span {
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
-.cart-prize-container hr {
+.cart-price-container hr {
   margin: 10px;
 }
 
-.cart-prize-container-bottom {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-#cart-prize-total {
+#cart-price-total {
   width: 130%;
   justify-content: flex-start;
-}
-
-@media (min-width: 1020px) {
-  .cart-container-main {
-    margin-right: 20px;
-  }
-}
-
-@media (max-width: 1039px) {
-  .cart-prize-container {
-    margin-top: 20px;
-  }
 }

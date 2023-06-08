@@ -10,202 +10,115 @@
       content="Rainy Days - Kjøp de beste jakkene på vår nettbutikk! Gratis frakt og retur*"
     />
     <link href="./css/main.css" rel="stylesheet" />
-    <link href="./css/pages/home.css" rel="stylesheet" />
+    <link href="./css/pages/index.css" rel="stylesheet" />
     <link href="./css/pages/store.css" rel="stylesheet" />
+    <script src="./js/nav.js" defer></script>
     <script
       src="https://kit.fontawesome.com/732f754b46.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Hotjar Tracking Code for my site -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3394985, hjsv: 6 };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
   </head>
   <body>
-    <div class="grid-container">
-      <header>
-        <section id="mobile-header">
-          <div class="mobile-header-container">
-            <div class="mobile-header-container-top">
-              <a href="./index.html"
-                ><img
-                  src="./images/Rainy Days Logo.webp"
-                  id="mobile-logo"
-                  alt="Rainy Days Logo"
-              /></a>
-              <div class="mobile-header-container-icons">
-                <a href="#" onclick="return false;" aria-label="Min konto"
-                  ><i class="fa-regular fa-user"></i
-                ></a>
-                <a href="#" onclick="return false;" aria-label="Mine favoritter"
-                  ><i class="fa-regular fa-heart"></i
-                ></a>
-                <a href="./cart.html" aria-label="Min handlekurv"
-                  ><i class="fa-regular fa-credit-card"></i
-                ></a>
-              </div>
-            </div>
-            <div class="mobile-header-container-bottom">
-              <input type="checkbox" id="menu-checkbox" />
-              <div class="bars-container">
-                <label for="menu-checkbox" class="bars-icon"
-                  ><i class="fa-solid fa-bars"></i
-                ></label>
-              </div>
-              <nav id="mobile-header-nav">
-                <ul>
-                  <div class="nav-container">
-                    <div class="nav-container-main">
-                      <p id="menu-title">Navigasjon</p>
-                      <input type="checkbox" id="menu-checkbox-close" />
-                      <div class="exit-container">
-                        <label for="menu-checkbox" class="exit-icon"
-                          ><i class="fa-solid fa-xmark"></i
-                        ></label>
-                      </div>
-                    </div>
-                  </div>
-                  <div id="nav-search">
-                    <div class="nav-search-container">
-                      <div class="search-bar">
-                        <input
-                          type="text"
-                          class="nav-search-bar-input"
-                          placeholder="Søk"
-                          aria-label="Søk"
-                        />
-                        <button
-                          class="nav-search-bar-submit"
-                          aria-label="Send Søk"
-                        >
-                          <i class="fa-solid fa-magnifying-glass"></i>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                  <li><a href="./index.html">Hjem</a></li>
-                  <li><a href="./store.html">Butikk</a></li>
-                  <li><a href="./about.html">Om</a></li>
-                  <li><a href="./contact.html">Kontakt</a></li>
-                  <hr />
-                  <div class="nav-others">
-                    <li><a href="#" onclick="return false;">Min konto</a></li>
-                    <li>
-                      <a href="#" onclick="return false;">Mine favoritter</a>
-                    </li>
-                    <li>
-                      <a href="#" onclick="return false;">Trenger du hjelp?</a>
-                    </li>
-                  </div>
-                </ul>
-              </nav>
-              <div class="search-container">
-                <div class="search-bar">
-                  <input
-                    type="text"
-                    class="search-bar-input"
-                    placeholder="Søk"
-                    aria-label="Søk"
-                  />
-                  <button class="search-bar-submit" aria-label="Send Søk">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </button>
-                </div>
-              </div>
+    <header>
+      <div class="nav-logo">
+        <a href="./index.html" title="Hjemmesiden for Rainy Days"
+          ><img
+            src="./images/rainy-days-logo.webp"
+            draggable="false"
+            alt="Rainy Days Logo"
+        /></a>
+      </div>
+      <nav class="nav-container">
+        <div class="nav-menu__upper">
+          <p class="title bold">Navigasjon</p>
+          <div class="nav-menu-button nav-menu-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav-menu__right">
+          <div class="search-container">
+            <input type="text" placeholder="Søk" name="search" />
+            <div class="search-button">
+              <button type="submit" title="Send søk" aria-label="Send søk">
+                <i class="fa fa-search"></i>
+              </button>
             </div>
           </div>
-        </section>
-        <section id="desktop-header">
-          <div class="desktop-header-container">
-            <div class="logo-container">
-              <div class="logo-container-content">
-                <a href="./index.html">
-                  <img
-                    src="./images/Rainy Days Logo.webp"
-                    class="desktop-logo"
-                    alt="Rainy Days Logo"
-                  />
-                </a>
-              </div>
-            </div>
-            <div class="desktop-header-container-main">
-              <div class="desktop-header-nav-container">
-                <nav id="desktop-header-nav">
-                  <ul>
-                    <li><a href="./index.html">Hjem</a></li>
-                    <li><a href="./store.html">Butikk</a></li>
-                    <li><a href="./about.html">Om</a></li>
-                    <li><a href="./contact.html">Kontakt</a></li>
-                  </ul>
-                </nav>
-              </div>
-              <div class="desktop-header-container-left">
-                <div class="desktop-search-container">
-                  <div class="desktop-search-bar">
-                    <input
-                      type="text"
-                      class="desktop-search-bar-input"
-                      placeholder="Søk"
-                      aria-label="Søk"
-                    />
-                    <button
-                      class="desktop-search-bar-submit"
-                      aria-label="Send Søk"
-                    >
-                      <i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="desktop-header-container-icons">
-                  <a href="#" onclick="return false;" aria-label="Min konto"
-                    ><i class="fa-regular fa-user"></i
-                  ></a>
-                  <a
-                    href="#"
-                    onclick="return false;"
-                    aria-label="Mine favoritter"
-                    ><i class="fa-regular fa-heart"></i
-                  ></a>
-                  <a href="./cart.html" aria-label="Min handlekurv"
-                    ><i class="fa-regular fa-credit-card"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-            <div class="desktop-hidden-container"></div>
+          <div class="nav-icons">
+            <i title="Søk her" aria-label="Søk her" class="fa fa-search"></i>
+            <a
+              href="#"
+              onclick="return false;"
+              title="Min konto"
+              aria-label="Min konto"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+            <a
+              href="./cart.html"
+              title="Min handlekurv"
+              aria-label="Min handlekurv"
+              ><i class="fa-regular fa-credit-card"></i
+            ></a>
           </div>
-        </section>
-      </header>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="./index.html" title="Hjem"
+              >Hjem<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./store.html" title="Butikk"
+              >Butikk<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./about.html" title="Om oss"
+              >Om<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./contact.html" title="Kontakt oss"
+              >Kontakt<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <hr />
+          <li class="nav-list-others">
+            <a href="#" onclick="return false;" title="Min konto"
+              >Min konto<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li class="nav-list-others">
+            <a href="./cart.html" title="Min handlekurv"
+              >Min handlekurv<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li class="nav-list-others">
+            <a href="./contact.html" title="Trenger du hjelp?"
+              >Trenger du hjelp?<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-menu-button nav-menu-open">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="hidden-box"></div>
+    </header>
 
-      <main>
-        <section>
-          <div class="main-container">
-            <div class="main-container-content">
-              <div class="flex-container">
-                <div class="info-container">
-                  <div class="info-container-content">
-                    <p class="title bold">
-                      Få 20% av din <br class="mobile-linebreak" />første
-                      bestilling!
-                    </p>
-                    <p id="info-undertitle">
-                      Når du kjøper hos oss <br class="mobile-linebreak" />får
-                      du 20% av din første bestilliing.<br />
-                      Gratis frakt og retur*
-                    </p>
-                  </div>
+    <main>
+      <section>
+        <div class="main-container">
+          <div class="main-container-content">
+            <div class="flex-wrapper">
+              <div class="info-container">
+                <div class="info-container-content">
+                  <p class="title bold">Få 20% av din første bestilling!</p>
+                  <p id="info-undertitle">
+                    Når du kjøper hos oss får du 20% av din første
+                    bestilliing.<br />
+                    Gratis frakt og retur*
+                  </p>
                   <div id="desktop-button" class="main-button">
                     <a href="./store.html">
                       <button type="button">
@@ -214,167 +127,179 @@
                     </a>
                   </div>
                 </div>
-                <div class="image-container">
-                  <div class="image-container-content">
-                    <img
-                      src="./images/Regnjakke 1.webp"
-                      class="cta-image-center"
-                      alt="SCOTT Nordic Regnjakke"
-                    />
-                  </div>
+              </div>
+              <div class="image-container">
+                <div class="image-container-content">
+                  <img
+                    src="./images/products/regnjakke-1.webp"
+                    draggable="false"
+                    class="cta-image-center"
+                    alt="SCOTT Nordic Regnjakke"
+                  />
                 </div>
-                <div id="mobile-button" class="main-button">
-                  <a href="./store.html">
-                    <button type="button">
-                      <p>Gå til butikken</p>
-                    </button>
-                  </a>
-                </div>
-                <div class="main-logo-container">
-                  <div class="main-logo-container-content">
-                    <img
-                      src="./images/Rainy Days Logo Black.webp"
-                      class="main-logo-center"
-                      alt="Rainy Days Logo"
-                    />
-                  </div>
-                </div>
+              </div>
+              <div id="mobile-button" class="main-button">
+                <a href="./store.html">
+                  <button type="button">
+                    <p>Gå til butikken</p>
+                  </button>
+                </a>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section>
-          <div class="store-container">
-            <div class="store-container-content">
-              <div class="horizontal-scroll">
-                <div class="product-main" id="left">
-                  <a href="./product.html">
-                    <div class="product-background">
-                      <div class="image-center">
-                        <img
-                          src="./images/Regnjakke 1.webp"
-                          class="image-jacket"
-                          alt="SCOTT Nordic Regnjakke"
-                        />
-                      </div>
+      <section>
+        <div class="store-container">
+          <div class="store-container-content">
+            <div class="horizontal-scroll">
+              <div class="product-main">
+                <a href="./product.html">
+                  <div class="product-background">
+                    <div class="image-center">
+                      <img
+                        src="./images/products/regnjakke-1.webp"
+                        draggable="false"
+                        class="image-jacket"
+                        alt="SCOTT Nordic Regnjakke"
+                      />
                     </div>
-                  </a>
-                  <a href="./product.html">
-                    <div class="product-info">
+                  </div>
+                </a>
+                <a href="./product.html">
+                  <div class="product-info">
+                    <div class="product-titles">
                       <p class="product-brand">SCOTT</p>
                       <p class="product-name">Nordic Regnjakke</p>
-                      <p class="product-prize">999,99 kr</p>
                     </div>
-                  </a>
-                </div>
-                <div class="product-main">
-                  <a href="./product.html">
-                    <div class="product-background">
-                      <div class="image-center">
-                        <img
-                          src="./images/Regnjakke 2.webp"
-                          class="image-jacket"
-                          alt="SCOTT Ultimate Regnjakke"
-                        />
-                      </div>
+                    <p class="product-prize">999,99 kr</p>
+                  </div>
+                </a>
+              </div>
+              <div class="product-main">
+                <a href="./product.html">
+                  <div class="product-background">
+                    <div class="image-center">
+                      <img
+                        src="./images/products/regnjakke-2.webp"
+                        draggable="false"
+                        class="image-jacket"
+                        alt="SCOTT Ultimate Regnjakke"
+                      />
                     </div>
-                  </a>
-                  <a href="./product.html">
-                    <div class="product-info">
+                  </div>
+                </a>
+                <a href="./product.html">
+                  <div class="product-info">
+                    <div class="product-titles">
                       <p class="product-brand">SCOTT</p>
                       <p class="product-name">Ultimate Regnjakke</p>
-                      <p class="product-prize">999,99 kr</p>
                     </div>
-                  </a>
-                </div>
-                <div class="product-main">
-                  <a href="./product.html">
-                    <div class="product-background">
-                      <div class="image-center">
-                        <img
-                          src="./images/Regnjakke 3.webp"
-                          class="image-jacket"
-                          alt="SCOTT Regnjakke"
-                        />
-                      </div>
+                    <p class="product-prize">999,99 kr</p>
+                  </div>
+                </a>
+              </div>
+              <div class="product-main">
+                <a href="./product.html">
+                  <div class="product-background">
+                    <div class="image-center">
+                      <img
+                        src="./images/products/regnjakke-3.webp"
+                        draggable="false"
+                        class="image-jacket"
+                        alt="SCOTT Regnjakke"
+                      />
                     </div>
-                  </a>
-                  <a href="./product.html">
-                    <div class="product-info">
+                  </div>
+                </a>
+                <a href="./product.html">
+                  <div class="product-info">
+                    <div class="product-titles">
                       <p class="product-brand">SCOTT</p>
                       <p class="product-name">Regnjakke</p>
-                      <p class="product-prize">999,99 kr</p>
                     </div>
-                  </a>
-                </div>
-                <div class="product-main" id="right">
-                  <a href="./product.html">
-                    <div class="product-background">
-                      <div class="image-center">
-                        <img
-                          src="./images/Regnjakke 4.webp"
-                          class="image-jacket"
-                          alt="SCOTT Regnjakke"
-                        />
-                      </div>
+                    <p class="product-prize">999,99 kr</p>
+                  </div>
+                </a>
+              </div>
+              <div class="product-main">
+                <a href="./product.html">
+                  <div class="product-background">
+                    <div class="image-center">
+                      <img
+                        src="./images/products/regnjakke-4.webp"
+                        draggable="false"
+                        class="image-jacket"
+                        alt="SCOTT Regnjakke"
+                      />
                     </div>
-                  </a>
-                  <a href="./product.html">
-                    <div class="product-info">
+                  </div>
+                </a>
+                <a href="./product.html">
+                  <div class="product-info">
+                    <div class="product-titles">
                       <p class="product-brand">SCOTT</p>
                       <p class="product-name">Regnjakke</p>
-                      <p class="product-prize">999,99 kr</p>
                     </div>
-                  </a>
-                </div>
+                    <p class="product-prize">999,99 kr</p>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
-        </section>
-      </main>
+        </div>
+      </section>
+    </main>
 
-      <footer>
-        <div class="container-footer">
-          <div class="container-row">
-            <div>
-              <h3>Kundeservice</h3>
-              <ul class="footer-content">
-                <li><a href="./contact.html">Kontakt oss</a></li>
-                <li>
-                  <a href="./contact.html">Spørsmål og svar</a>
-                </li>
-                <li>
-                  <a href="#" onclick="return false;">Frakt og levering</a>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3>Om Rainy Days</h3>
-              <ul class="footer-content">
-                <li><a href="./about.html">Om oss</a></li>
-                <li><a href="#" onclick="return false;">Butikker</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3>Vilkår og betingelser</h3>
-              <ul class="footer-content">
-                <li><a href="#" onclick="return false;">Kjøpsvilkår</a></li>
-                <li><a href="#" onclick="return false;">Brukervilkår</a></li>
-                <li>
-                  <a href="#" onclick="return false;">Personvernerklæring</a>
-                </li>
-                <li>
-                  <a href="#" onclick="return false;">Informasjonskapsler</a>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <footer>
+      <div class="footer-container__main">
+        <div class="footer-content__1">
+          <h3>Kundeservice</h3>
+          <ul class="footer-content">
+            <li title="Kontakt oss">
+              <a href="./contact.html">Kontakt oss</a>
+            </li>
+            <li title="Spørsmål og svar">
+              <a href="./contact.html">Spørsmål og svar</a>
+            </li>
+            <li title="Frakt og levering">
+              <a href="#" onclick="return false;">Frakt og levering</a>
+            </li>
+          </ul>
         </div>
-        <div class="footer-copyright">
-          <p>Rainy Days &copy; All righs reserved</p>
+        <div class="footer-content__2">
+          <h3>Om Rainy Days</h3>
+          <ul class="footer-content">
+            <li title="Om oss">
+              <a href="./about.html">Om oss</a>
+            </li>
+            <li title="Butikker">
+              <a href="#" onclick="return false;">Butikker</a>
+            </li>
+          </ul>
         </div>
-      </footer>
-    </div>
+        <div class="footer-content__3">
+          <h3>Vilkår og betingelser</h3>
+          <ul class="footer-content">
+            <li title="Kjøpsvilkår">
+              <a href="#" onclick="return false;">Kjøpsvilkår</a>
+            </li>
+            <li title="Brukervilkår">
+              <a href="#" onclick="return false;">Brukervilkår</a>
+            </li>
+            <li title="Personvernerklæring">
+              <a href="#" onclick="return false;">Personvernerklæring</a>
+            </li>
+            <li title="Informasjonskapsler">
+              <a href="#" onclick="return false;">Informasjonskapsler</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-container__copyright">
+        <p>Rainy Days &copy; All righs reserved</p>
+      </div>
+    </footer>
   </body>
 </html>

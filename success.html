@@ -11,28 +11,100 @@
     />
     <link href="./css/main.css" rel="stylesheet" />
     <link href="./css/pages/success.css" rel="stylesheet" />
+    <script src="./js/nav.js" defer></script>
     <script
       src="https://kit.fontawesome.com/732f754b46.js"
       crossorigin="anonymous"
     ></script>
-    <!-- Hotjar Tracking Code for my site -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3394985, hjsv: 6 };
-        a = o.getElementsByTagName('head')[0];
-        r = o.createElement('script');
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
   </head>
   <body>
+    <header>
+      <div class="nav-logo">
+        <a href="./index.html" title="Hjemmesiden for Rainy Days"
+          ><img
+            src="./images/rainy-days-logo.webp"
+            draggable="false"
+            alt="Rainy Days Logo"
+        /></a>
+      </div>
+      <nav class="nav-container">
+        <div class="nav-menu__upper">
+          <p class="title bold">Navigasjon</p>
+          <div class="nav-menu-button nav-menu-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <div class="nav-menu__right">
+          <div class="search-container">
+            <input type="text" placeholder="Søk" name="search" />
+            <div class="search-button">
+              <button type="submit" title="Send søk" aria-label="Send søk">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <div class="nav-icons">
+            <i title="Søk her" aria-label="Søk her" class="fa fa-search"></i>
+            <a
+              href="#"
+              onclick="return false;"
+              title="Min konto"
+              aria-label="Min konto"
+              ><i class="fa-regular fa-user"></i
+            ></a>
+            <a
+              href="./cart.html"
+              title="Min handlekurv"
+              aria-label="Min handlekurv"
+              ><i class="fa-regular fa-credit-card"></i
+            ></a>
+          </div>
+        </div>
+        <ul class="nav-list">
+          <li>
+            <a href="./index.html" title="Hjem"
+              >Hjem<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./store.html" title="Butikk"
+              >Butikk<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./about.html" title="Om oss"
+              >Om<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="./contact.html" title="Kontakt oss"
+              >Kontakt<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <hr />
+          <li class="nav-list-others">
+            <a href="#" onclick="return false;" title="Min konto"
+              >Min konto<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li class="nav-list-others">
+            <a href="./cart.html" title="Min handlekurv"
+              >Min handlekurv<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+          <li class="nav-list-others">
+            <a href="./contact.html" title="Trenger du hjelp?"
+              >Trenger du hjelp?<i class="fa-solid fa-angle-right"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="nav-menu-button nav-menu-open">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="hidden-box"></div>
+    </header>
+
     <main>
       <section>
         <div class="success-container">
@@ -58,7 +130,7 @@
                 </ol>
               </div>
               <a href="./store.html"
-                ><button type="button"><p>Tilbake butikken</p></button></a
+                ><button type="button"><p>Tilbake til butikken</p></button></a
               >
             </div>
           </div>
